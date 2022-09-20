@@ -14,9 +14,14 @@
     <!-- Fileset definition -->
     <fileset>
         <!-- back-end -->
-        <files folder="backend" target="administrator/language/pl-PL">
-            <filename>pl-PL.com_phocadownload.ini</filename>
-            <filename>pl-PL.com_phocadownload.sys.ini</filename>
+        <files folder="backend/pl-PL" target="administrator/language/pl-PL">
+            <filename>com_phocadownload.ini</filename>
+            <filename>com_phocadownload.sys.ini</filename>
+        </files>
+        <!-- front-end -->
+        <files folder="backend/pl-PL" target="language/pl-PL">
+            <filename>com_phocadownload.ini</filename>
+            <filename>com_phocadownload.sys.ini</filename>
         </files>
     </fileset>
     <updateservers>
