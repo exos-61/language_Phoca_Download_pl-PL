@@ -8,7 +8,7 @@
     <license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
     <authorEmail>admin@dziadek.guide</authorEmail>
     <authorUrl>https://dziadek.guide</authorUrl>
-    <version>4.0.3</version>
+    <version>4.0.5</version>
     <description>Polski pakiet językowy dla komponentu Phoca Download</description>
 
     <!-- Fileset definition -->
@@ -25,6 +25,6 @@
         </files>
     </fileset>
     <updateservers>
-        <server type="collection" priority="1" name="lang_com_phoca_download_pl-PL">https://upgrade.dziadek.guide/translationlist.xml</server>
+        <server type="collection" priority="1" name="lang_com_phoca_download_pl-PL">https://dziadek.guide/langpack/translationlist.xml</server>
     </updateservers>
 </extension>
